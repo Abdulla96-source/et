@@ -1,0 +1,32 @@
+{
+    "name": "et",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.5.1",
+        "qdee": "github:Hiwonder/Qdee#e743f73fb684baf25899267f001b67d62b937552",
+        "BitBot": "github:4tronix/bitbot#1.5.5",
+        "cutebot": "github:elecfreaks/pxt-cutebot#v6.1.0",
+        "maqueen": "github:dfrobot/pxt-maqueen#v1.7.2",
+        "pxt-28byj-48-stepper": "github:tinkertanker/pxt-stepper-motor#v0.0.5",
+        "pxt-kitronik-motor-driver": "github:kitronikltd/pxt-kitronik-motor-driver#v0.0.8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
